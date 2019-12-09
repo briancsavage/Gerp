@@ -1,7 +1,7 @@
-Brian Savage
-Nov. 29th, 2019
-Tufts: Comp 15
-Gerp Project 2: Part 2
+- Brian Savage
+- Nov. 29th, 2019
+- Tufts: Comp 15
+- Gerp Project 2: Part 2
 
 
 # [Purpose of the Project]
@@ -15,21 +15,21 @@ program.
 ``` 
 
 # [List of Provided Files]
-	main.cpp - contains the main function for the Gerp Program
-	gerp.h - contains the function definitions for the GerpSearch class
-	gerp.cpp - contains the implementation for the GerpSearch class
-	library.h - contains the function definitions for the GerpSearch class
-	library.cpp - contains the implementation for the GerpSearch class
-	FSTreeTraversal.h - contains the function definitions for the Indexer class
-	FSTreeTraversal.cpp - contains the implementation for the Indexer class
-	stringProcessing.h - contains the function defintions for the string Processing class
-	stringProcessing.cpp - contains the implementation for the Indexer class
-	DirNode.h - contains the function definitions for the DirNode class
-	DirNode.o - object file for the DirNode class
-	FSTree.h - contains the function definitions for the FSTree class
-	FSTree.o - object file for the FSTree class
-	Makefile - used to clean and compile Gerp program
-	README - all information pertaining to the Gerp program
+- main.cpp - contains the main function for the Gerp Program
+- gerp.h - contains the function definitions for the GerpSearch class
+- gerp.cpp - contains the implementation for the GerpSearch class
+- library.h - contains the function definitions for the GerpSearch class
+- library.cpp - contains the implementation for the GerpSearch class
+- FSTreeTraversal.h - contains the function definitions for the Indexer class
+- FSTreeTraversal.cpp - contains the implementation for the Indexer class
+- stringProcessing.h - contains the function defintions for the string Processing class
+- stringProcessing.cpp - contains the implementation for the Indexer class
+- DirNode.h - contains the function definitions for the DirNode class
+- DirNode.o - object file for the DirNode class
+- FSTree.h - contains the function definitions for the FSTree class
+- FSTree.o - object file for the FSTree class
+- Makefile - used to clean and compile Gerp program
+- README - all information pertaining to the Gerp program
 
 # [How to Compile and Run Program]
    - "make clean" - removes the object files for the Gerp program
