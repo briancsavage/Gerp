@@ -1,17 +1,18 @@
-A. Brian Savage
-   Nov. 29th, 2019
-   Comp 15
-   Gerp Project 2: Part 2
-B. [Purpose of the Assignment]
-   - The purpose of the assignment was to implement a version of the Linux 
+Brian Savage
+Nov. 29th, 2019
+Comp 15
+Gerp Project 2: Part 2
+
+
+[Purpose of the Project]
+     The purpose of the assignment was to implement a version of the Linux 
      command Grep that provides a search of a directory and all subdirectories
      and files for a search query. Our version, named Gerp, does the same and 
      provides insensitve queries with (@i or @insensitive), @f will change the
      destination of the query results, and @q will quit and close the Gerp
      program.
-C. [Acknowledgements for help on this assignment]
-   - I received no outside help on this assignment.
-D. [List of Provided Files]
+
+[List of Provided Files]
    - main.cpp - contains the main function for the Gerp Program
    - gerp.h - contains the function definitions for the GerpSearch class
    - gerp.cpp - contains the implementation for the GerpSearch class
@@ -29,7 +30,8 @@ D. [List of Provided Files]
    - FSTree.o - object file for the FSTree class
    - Makefile - used to clean and compile Gerp program
    - README - all information pertaining to the Gerp program
-E. [How to Compile and Run Program]
+
+[How to Compile and Run Program]
    - "make clean" - removes the object files for the Gerp program
    - "make gerp" - compile all required classes and object files to get the 
      	   	   gerp executable
@@ -40,7 +42,8 @@ E. [How to Compile and Run Program]
      "@i" or "@insensitive" --> make the search query insensitive
      "@f" --> changes the destination of the query results
      "@q" or "@quit" --> quits the gerp search program
-F. [Architectural Overview of Classes]
+
+[Architectural Overview of Classes]
    - main function - contains an instance of the GerpSearch class
    - GerpSearch class - contains instances of the stringProcessing class, the
      		      	FSTree class, the Indexer class, and a pointer to the
@@ -60,7 +63,8 @@ F. [Architectural Overview of Classes]
 			     all words contained within the files that will be
 			     accessed through the pointer to the library 
 			     class. 
-G. [Outline of Data Structures and Algorithms]
+
+[Outline of Data Structures and Algorithms]
    - Library Class Data Structures -
      The library class contains a pointer to the root of a binary search tree.
      This binary tree is comprised on nodes. The maximum occupancy of the tree
@@ -83,7 +87,7 @@ G. [Outline of Data Structures and Algorithms]
      from the same line. Additionally, during the creating of the database, 
      a check is performed to prevent multiple insertions of the same string
      on the same line. This prevents duplicate printing during the querying.
-H. [Methods for Testing Gerp]   
+[Methods for Testing Gerp]   
    - Testing FSTreeTraversal -
      The primary testing that I performed for the FSTreeTraversal class is by
      printing the list of all directories and files contains from the root
