@@ -1,6 +1,5 @@
 - Brian Savage
 - Nov. 29th, 2019
-- Tufts: Comp 15
 - Gerp Project
 
 
