@@ -3,7 +3,7 @@
 - Gerp Project
 
 
-# [Purpose of the Project]
+# Purpose of the Project
 
 - The purpose of the assignment was to implement a version of the Linux 
 command Grep that provides a search of a directory and all subdirectories
@@ -13,7 +13,7 @@ destination of the query results, and @q will quit and close the Gerp
 program.
 
 
-# [List of Provided Files]
+# List of Provided Files
 - main.cpp - contains the main function for the Gerp Program
 - gerp.h - contains the function definitions for the GerpSearch class
 - gerp.cpp - contains the implementation for the GerpSearch class
@@ -30,7 +30,7 @@ program.
 - Makefile - used to clean and compile Gerp program
 - README - all information pertaining to the Gerp program
 
-# [How to Compile and Run Program]
+# How to Compile and Run Program
    - "make clean" - removes the object files for the Gerp program
    - "make gerp" - compile all required classes and object files to get the 
      	   	   gerp executable
@@ -42,12 +42,12 @@ program.
      "@f" --> changes the destination of the query results
      "@q" or "@quit" --> quits the gerp search program
 
-# [Architectural Overview of Classes]
+# Architectural Overview of Classes
    - main function - contains an instance of the GerpSearch class
    - GerpSearch class - contains instances of the stringProcessing class, the FSTree class, the Indexer class, and a pointer to the Library class. The stringProcessing class clears the nonAlphaNumeric characters from the search queries. The FSTree class is passed to the Indexer class to provide a directory to be indexed. The Indexer class creates the database of words that can be queried. The library class is also passed to the indexer class to be the location of the words that will be stored.
    - FSTreeTraversal class - The FSTreeTraversal class contains instances of the FSTree class, a pointer to an instance of the library class, and an instance of the stringProcessing class. The instance of the FSTree class is used by the FSTreeTraversal class to index the directory and file tree and process all words contained within the files that will be accessed through the pointer to the library class. 
 
-# [Outline of Data Structures and Algorithms]
+# Outline of Data Structures and Algorithms
    - Library Class Data Structures -
      The library class contains a pointer to the root of a binary search tree.
      This binary tree is comprised on nodes. The maximum occupancy of the tree
@@ -70,7 +70,7 @@ program.
      from the same line. Additionally, during the creating of the database, 
      a check is performed to prevent multiple insertions of the same string
      on the same line. This prevents duplicate printing during the querying.
-# [Methods for Testing Gerp]   
+# Methods for Testing Gerp   
    - Testing FSTreeTraversal -
      The primary testing that I performed for the FSTreeTraversal class is by
      printing the list of all directories and files contains from the root
